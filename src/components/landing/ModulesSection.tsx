@@ -107,14 +107,14 @@ export default function ModulesSection() {
                   </div>
                 )}
                 <CardHeader>
-                  <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem]">{module.title}</CardTitle>
+                  <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem] uppercase">{module.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <ul className="space-y-2">
                     {module.description.map((point, index) => (
                       <li key={index} className="flex items-start">
                         <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                        <span className="text-lg text-foreground/80 font-inter font-bold">{point}</span>
+                        <span className="text-xl text-foreground/80 font-inter font-bold">{point}</span>
                       </li>
                     ))}
                   </ul>
@@ -152,14 +152,14 @@ export default function ModulesSection() {
                           </div>
                         )}
                         <CardHeader>
-                          <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem]">{module.title}</CardTitle>
+                          <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem] uppercase">{module.title}</CardTitle>
                         </CardHeader>
                         <CardContent className="flex-grow">
                           <ul className="space-y-2">
                             {module.description.map((point, index) => (
                               <li key={index} className="flex items-start">
                                 <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                                <span className="text-lg text-foreground/80 font-inter font-bold">{point}</span>
+                                <span className="text-xl text-foreground/80 font-inter font-bold">{point}</span>
                               </li>
                             ))}
                           </ul>
